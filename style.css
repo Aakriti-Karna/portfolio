@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f6f8;
+  color: #333;
+}
+
+.hero {
+  background: #0f172a;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.profile-pic {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 4px solid white;
+  object-fit: cover;
+}
+
+.links a {
+  color: #38bdf8;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+section {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+}
+
+h2 {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.project {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.project a {
+  text-decoration: none;
+  color: #2563eb;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #e5e7eb;
+}
